@@ -9,7 +9,7 @@ const YourApp = () => {
         setTaskList([...taskList, task]);
     };
     const handleDeleteTask = (index) => {
-        Alert.alert('Thông báo', 'Bạn có chắc chắn muốn xóa?', [
+        Alert.alert('Message', 'Are you sure to delete this item?', [
             {
                 text: 'Cancel',
                 onPress: () => {},
